@@ -1,0 +1,42 @@
+.crystals{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 50%;
+	padding-top: 15px;
+	padding-left: 30px;
+}
+
+.crystal{
+	border: 1px solid green;
+	height: 100px;
+	width: 140px;
+}
+
+.bg{
+	background-image: url("../images/background-img.jpg");
+}
+
+.heading{
+	background-color: #da8d2d;
+    color: #fff;
+	height: 50px;
+}
+
+.instruction{
+	background-color: #f1ecb6;
+    color: #000;
+	height: 230px;
+}
+
+.box{
+	padding-left: 24px;
+	padding-top: 15px;
+}
+
+.side-box{
+	float:left;
+	width: 11%;
+    background: #66d0cb;
+    height: 113px;
+}
