@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Crystal Collector</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <style>
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+	
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body class="bg">
+
+<div class="row" class="box" style="padding-left: 30px;padding-top:10px;">
+  <div class="col-sm-6 heading">Crystal Collector !</div>
+  <div class="col-sm-6"></div>
+</div>
+<div class="row bg" class="box" style="padding-left: 30px;padding-top:10px;">
+  <div class="col-sm-6 instruction">You will be given a random number at the start of the game.<br/><br/>There are four crystals below. By clicking on a crystal you will add a specific number of points to your total score.<br/><br/>You win the game by matching your total score to random number. You lose the game if your total score goes above the random number.<br/><br/>The value of each crystal is hidden from you until you click on it.<br/><br/>Each time when the game starts, the game will change the value of each crystal.</div>
+  <div class="col-sm-6"></div>
+</div>
+
+
+
+
+<div class="row" class="box" style="padding-left: 30px;padding-top:10px;">
+
+<div class="col-sm-1" class="side-box" style="background-color: #5fc4a2; margin: 0 auto;">
+<p id="result" style="font-size: 20px;"></p>
+	</div>
+
+	<div class="col-sm-1">
+	
+	</div>
+	
+<div class="col-sm-1" class="side-box" style="background-color: #6ab543;">
+Win: <p id="win"></p>
+Lost: <p id="lost"></p>
+</div>
+<div class="col-sm-9">
+	
+	</div>
+</div>
+</div>
+
+<div class="row" style="padding-top:10px;">
+<div class="crystals">
+
+</div>
+</div>
+
+<div class="row" style="padding-left:15px;padding-top:10px;">
+<div class="col-sm-4">
+	<p style="background-color: #47be96; color:#fff">Your total score is</p>
+	<p style="background-color: #47be96; color:#fff" id="previous"></p>
+</div>
+</div>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+
+</body>
+</html>
